@@ -1,0 +1,56 @@
+.app-header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color:#f6d1a6;
+}
+
+.skip-link{
+    position: absolute;
+    left: -100px;
+    top: -100px;
+  
+    border: 1px solid black;
+  
+    text-decoration: none;
+  }
+  
+  .skip-link:focus{
+    top: 110px;
+    left: 5px;
+  }
+
+.header-img-title {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.header-title {
+    margin-left: 0.5rem;
+}
+
+.header-nav {
+    grid-column: span 12;
+
+}
+
+.header-img {
+    height: 100px;
+    width: 100px;
+    max-height: fit-content;
+}
+
+.header-title {
+    min-width: auto;
+    font-family:'Chivo Mono', monospace;
+    font-size: 3rem;
+}
+
+.header-img-button {
+    height: 100px;
+    width: 100px;
+
+    padding:0;
+    border:0;
+    margin:0;
+}

@@ -1,0 +1,121 @@
+.main-homepage {
+    width: 100%;
+
+    margin: auto;
+}
+
+.main-homepage:hover >button {
+    display: block;
+}
+
+.main-carousel {
+    margin: auto;
+
+    background-color: antiquewhite;
+    height: 600px;
+    width: 100%;
+}
+
+.main-carousel-img {
+    margin: auto;
+    width: 65%;
+    height: 100%;
+
+    display: block;
+}
+
+.right-arrow {
+    display: none;
+
+    height: 40px;
+    width: 40px;
+    
+    position: absolute;
+    right: 5rem;
+    top: 25rem;
+
+    background-color: initial;
+    filter: grayscale(100%) brightness(1000%);
+    opacity: 0.5;  
+}
+
+.left-arrow {
+    display: none;
+
+    height: 40px;
+    width: 40px;
+    
+    position: absolute;
+    left: 5rem;
+    top: 25rem;
+    
+    background-color: initial;
+    filter: grayscale(100%) brightness(1000%);
+    opacity: 0.5;  
+}
+
+/* bellow css codes are from css.gg.com. License: https://css.gg/doc/terms */
+.right-arrow {
+    box-sizing: border-box;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    transform: scale(var(--ggs,1));
+    border-radius: 20px
+}
+.right-arrow::after,
+.right-arrow::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    right: 4px
+}
+.right-arrow::after {
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    bottom: 6px
+}
+.right-arrow::before {
+    width: 10px;
+    height: 2px;
+    bottom: 8px;
+    background: currentColor
+}
+
+.left-arrow {
+    box-sizing: border-box;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    transform: scale(var(--ggs,1));
+    border-radius: 22px
+}
+.left-arrow::after,
+.left-arrow::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 4px
+}
+.left-arrow::after {
+    width: 6px;
+    height: 6px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(45deg);
+    bottom: 6px
+}
+.left-arrow::before {
+    width: 10px;
+    height: 2px;
+    bottom: 8px;
+    background: currentColor
+}
+
+
+

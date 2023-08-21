@@ -1,0 +1,70 @@
+.main-accordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 0;
+}
+
+.accordion-title-button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+
+    text-align: left;
+
+    font-size: 1.5rem;
+
+    width: 70%;
+}
+
+.accordion-recipe-detial {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    border-bottom: 0;
+
+    width: 70%;
+}
+
+.accordion-recipe-ingre, .accordion-recipe-instr {
+    margin: auto;
+
+    width: 100%;
+}
+
+.accordion-recipe-ingre>*, .accordion-recipe-instr>* {
+    width: 100%;
+}
+
+.accordion-text {
+    padding: 0;
+
+    width: 100%;
+
+    font-size: 1rem;
+    list-style: none;
+}
+
+.accordion-ingre-button, .accordion-instr-button {
+    text-align: left;
+    font-size: 1rem;
+}
+
+.accordion-title-button:hover, .accordion-ingre-button:hover, .accordion-instr-button:hover {
+    background-color: azure;
+}
+
+.accordion-icon-open::after {
+    content: "-";
+    position: relative;
+    float: right;
+}
+
+.accordion-icon-close::after {
+    content: "+";
+    position: relative;
+    float: right;
+}
+
+

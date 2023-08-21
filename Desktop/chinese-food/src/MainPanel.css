@@ -1,0 +1,40 @@
+.main-panel {
+    margin: 1rem 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+}
+
+.main-panel>* {
+    grid-column: span 12;
+}
+
+.img-wrapper {
+    float: left;
+
+    width: 250px;
+    height: 180px;
+
+    margin-right: 1rem;
+}
+
+.main-panel-img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+}
+
+.main-panel-title {
+    margin-left: 1rem;
+}
+
+.main-panel-text {
+    font-size: 1.2rem;
+
+}
+
+.panel-main-title {
+    margin: 0 auto;
+}
